@@ -32,8 +32,8 @@ function selectColor(magnitude) {
   else if (magnitude >= 1) {
     return "#F7FF00";
   }
-  else {
-    return "C2FF00";
+  else if (magnitude < 1) {
+    return "#6AFF00";
   }
 }
 
@@ -45,7 +45,24 @@ function circleSize(magnitude) {
 // Grabbing the GeoJSON data with d3
 d3.json(link, function(data) {
 
-  console.log(data)
+  L.geoJson(data, {
+    pointToLayer: function(feature, latlng) {
+      return L.circleMarker(latlng);
+    },
+
+    style: function(feature) {
+      return {
+        color: "white",
+        fillColor: selectColor(feature.properties.mag),
+        fillOpacity: 0.5,
+        weight: 0.5,
+        radius: circleSize(feature.properties.mag)
+      };
+    }
+
+
+
+  }).addTo(myMap);
 
   
 
