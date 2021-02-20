@@ -58,10 +58,12 @@ d3.json(link, function(data) {
         weight: 0.5,
         radius: circleSize(feature.properties.mag)
       };
+    },
+
+    // popups that provide additional information about the earthquake when a marker is clicked.
+    onEachFeature: function(feature, layer) {
+      layer.bindPopup(`<h6>Earthquake Information</h6><hr>Location: ${feature.properties.place}<br>Magnitude: ${feature.properties.mag}`)
     }
-
-
-
   }).addTo(myMap);
 
   
