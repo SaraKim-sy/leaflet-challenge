@@ -4,31 +4,17 @@
 
 ![1-Logo](Images/1-Logo.png)
 
-Welcome to the United States Geological Survey, or USGS for short! The USGS is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. As a new hire, you will be helping them out with an exciting new project!
+The USGS, the United States Geological Survey, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. 
 
-The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
-
-### Before You Begin
-
-1. Create a new repository for this project called `leaflet-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the Leaflet challenge. Use the folder names to correspond to the challenges: **Leaflet-Step-1** and **Leaflet-Step-2**.
-
-4. This homeworks utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-## Your Task
+The USGS collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. This repository was created is to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
 ### Level 1: Basic Visualization
 
 ![2-BasicMap](Images/basicmap.PNG)
 
-Your first task is to visualize an earthquake data set.
+Visualizing an earthquake data set.
 
-1. **Get your data set**
+1. **Get the data set**
 
    ![3-Data](Images/3-Data.png)
 
@@ -38,17 +24,17 @@ Your first task is to visualize an earthquake data set.
 
 2. **Import & Visualize the Data**
 
-   Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
+  A map was created using Leaflet that plots all of the earthquakes from the data set based on their longitude and latitude.
 
-   * Your data markers should reflect the magnitude of the earthquake by their size and and depth of the earth quake by color. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
+   * The data markers reflect the magnitude of the earthquake by their size and and depth of the earth quake by color. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
 
-   * **HINT** the depth of the earth can be found as the third coordinate for each earthquake.
+   * the depth of the earth can be found as the third coordinate for each earthquake.
 
-   * Include popups that provide additional information about the earthquake when a marker is clicked.
+   * Popups that provide additional information about the earthquake when a marker is clicked were included.
 
-   * Create a legend that will provide context for your map data.
+   * A legend that will provide context for your map data was created.
 
-   * Your visualization should look something like the map above.
+   * The final visualization looks like the map above.
 
 - - -
 
@@ -67,21 +53,3 @@ In this step we are going to..
 * Add layer controls to our map.
 
 - - -
-
-### Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Completion of assigned tasks
-
-* Visual appearance
-
-* Professionalism
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-**Good luck!**
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
